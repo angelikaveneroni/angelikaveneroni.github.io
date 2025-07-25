@@ -30,3 +30,17 @@ ul {
     text-align: center;
 }
 
+.timeline {
+  list-style: none;
+  padding-left: 0;
+}
+.timeline li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 24px;
+}
+.timeline-date {
+  font-weight: bold;
+  color: #2a7ae2;
+  margin-right: 8px;
+}
