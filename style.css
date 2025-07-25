@@ -23,3 +23,10 @@ h5 {
     font-size: 1.2em;
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
