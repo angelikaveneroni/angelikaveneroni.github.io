@@ -44,3 +44,33 @@ ul {
   color: #2a7ae2;
   margin-right: 8px;
 }
+
+/* Menu a tendina */
+nav {
+  margin-bottom: 24px;
+  background: #f5f5f5;
+  padding: 12px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+nav label {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #2a7ae2;
+}
+
+nav select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #2a7ae2;
+  background: #fff;
+  color: #333;
+  font-size: 1em;
+  transition: border-color 0.2s;
+}
+
+nav select:focus {
+  border-color: #0056b3;
+  outline: none;
+}
